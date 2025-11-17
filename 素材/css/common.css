@@ -1,0 +1,225 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1240px;
+}
+
+.kjdh {
+  height: 52px;
+  background-color: #333;
+}
+
+.kjdh ul {
+  display: flex;
+  justify-self: end;
+  line-height: 52px;
+}
+
+.kjdh ul a {
+  padding: 0 15px;
+  border-right: 1px solid #999;
+  font-size: 14px;
+  color: #fff;
+}
+
+.kjdh ul li:last-child a {
+  border: 0;
+}
+
+.kjdh .iconfont {
+  padding: 15px 4px 0 0;
+  vertical-align: middle;
+}
+
+
+.header {
+  margin: 22px 66px;
+  height: 88px;
+  /* background-color: pink; */
+
+}
+
+.header .wrapper {
+  display: flex;
+}
+
+.logo {
+  padding-right: 44px;
+}
+
+.logo a {
+  display: block;
+  height: 88px;
+  width: 200px;
+  background-image: url(../suc/images/logo.png);
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
+.nav ul {
+  display: flex;
+  width: 740px;
+}
+
+.nav ul li {
+  width: 79px;
+  height: 88px;
+  line-height: 88px;
+}
+
+.header .souk {
+  border-bottom: 1px solid #ccc;
+  /* background-color: red; */
+  height: 34px;
+  width: 170px;
+  margin-top: 33px;
+  display: flex;
+  color: #ccc
+}
+
+.souk .iconfont {
+  color: #ccc;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.souk input {
+  width: 0;
+  flex: 1;
+}
+
+.souk input::placeholder {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.gwcar {
+  position: relative;
+  margin-top: 32px;
+}
+
+.gwcar .iconfont {
+  font-size: 24px;
+}
+
+.gwcar i {
+  position: absolute;
+  top: 1px;
+  /* right 定位右对齐：如果文字多了，向左撑开，可能盖住其他的内容 */
+  /* right: 1px; */
+  /* left 定位左对齐：文字多了，向右撑开 */
+  left: 15px;
+  padding: 0 6px;
+  height: 15px;
+  background-color: #E26237;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #FFFEFE;
+  line-height: 15px;
+}
+
+/* .footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+} */
+
+.service {
+  height: 178px;
+  padding: 60px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.service ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* line-height: 178px; */
+}
+
+.service li {
+  display: flex;
+  ;
+}
+
+.service li p {
+  font-size: 28px;
+  line-height: 58px;
+}
+
+.service ul li h5 {
+  margin-right: 20px;
+  width: 58px;
+  height: 58px;
+  background-image: url(../suc/images/sprite.png);
+}
+
+.service li:nth-child(2) h5 {
+  background-position: 0 -58px;
+}
+
+.service li:nth-child(3) h5 {
+  background-position: 0 -116px;
+}
+
+.service li:nth-child(4) h5 {
+  background-position: 0 -174px;
+}
+
+
+.help {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.help .left {
+  display: flex;
+}
+
+.help dl {
+  margin-right: 84px;
+}
+
+.help dl:last-child {
+  margin-right: 0px;
+}
+
+.help dt {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.help dd {
+  font-size: 16px;
+  color: #969696;
+  margin-bottom: 12px;
+}
+
+.help .right {
+  display: flex;
+}
+
+.help .right ul:first-child {
+  margin-right: 60px;
+}
+
+.help .right li {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 16px;
+  color: #969696;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  margin-bottom: 10px;
+  color: #A1A1A1;
+}
+
+.copyright p a {
+  margin: 0 10px;
+  color: #A1A1A1;
+}

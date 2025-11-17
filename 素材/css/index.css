@@ -1,0 +1,223 @@
+.banner .wrapper {
+  height: 500px;
+  background-color: blue;
+  background-image: url(../suc/uploads/banner1.png);
+}
+
+.banner .left ul {
+  height: 50px;
+  width: 248px;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+.banner .left ul li {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  justify-content: space-between;
+  line-height: 50px;
+  padding-right: 8px;
+}
+
+/* .banner .left div {} */
+
+
+.banner .left li a {
+  font-size: 14px;
+  color: white;
+  margin-left: 5px;
+}
+
+.banner .left li .aclassfy {
+  font-size: 18px;
+  /* background-color: red; */
+  margin-right: 20px;
+}
+
+.banner .left .iconfont {
+  color: white;
+}
+
+.comheader {
+  margin: 40px 0 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.comheader .left {
+  display: flex;
+  align-items: flex-end;
+}
+
+.comheader .right {
+  display: flex;
+  align-items: center;
+}
+
+.comheader .right a {
+  font-size: 16px;
+  color: #A1A1A1;
+  display: block;
+}
+
+.comheader .right span {
+  padding-left: 3px;
+  padding-right: 8px;
+}
+
+
+
+.comheader h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.comheader .left p {
+  margin-left: 35px;
+  font-size: 16px;
+  color: #A1A1A1;
+}
+
+.goods {
+  height: 404px;
+
+}
+
+.goods ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.goods ul li {
+  width: 305px;
+  height: 404px;
+  background-color: #EEF9F4;
+}
+
+.biaot {
+  font-weight: normal;
+  height: 30px;
+  margin: 8px 0 12px;
+  font-size: 20px;
+}
+
+.goods {
+  text-align: center;
+}
+
+.goods p,
+.price {
+  font-size: 22px;
+  color: #aa2113;
+}
+
+.peolov .goods ul li {
+  background-color: white;
+}
+
+.peolov .goods p {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+
+.brand .right {
+  position: relative;
+}
+
+.brand .button {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: -40%;
+}
+
+.brand .button .next {
+  display: block;
+  height: 16px;
+  width: 16px;
+  background-color: #00BE9A;
+  margin-left: 13px;
+  line-height: 16px;
+  color: white
+}
+
+.brand .button .prev {
+  display: block;
+  height: 16px;
+  width: 16px;
+  background-color: #DDDDDD;
+  margin-left: 13px;
+  line-height: 16px;
+  color: white
+}
+
+.brand .img ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand .img ul li {
+  width: 244px;
+  height: 306px;
+}
+
+.sxnav ul {
+  display: flex;
+  padding-right: 70px;
+}
+
+.sxnav ul li {
+  padding: 0 12px;
+  /* border: 1px solid #000; */
+}
+
+.sfresh .right .sxnav a {
+  font-size: 16px;
+  color: #333;
+}
+
+.leftp {
+  width: 262px;
+  height: 610px;
+  margin-right: 2px;
+  /* border: 1px solid #000; */
+
+}
+
+.rightp {
+  /* background-color: red; */
+}
+
+.rightp ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rightp ul li {
+  margin-bottom: 2px;
+  width: 242px;
+  height: 328px;
+  border: 2px solid #00BE9A;
+}
+
+.phot {
+  display: flex;
+}
+
+.rightp .pho {
+  margin: 12px 20px;
+}
+
+.rightp h4,
+p {
+  margin: 0 20px 8px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+.rightp .price {
+  margin-top: 30px;
+}
